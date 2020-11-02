@@ -2,10 +2,17 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Apenas uma demonstração simples de como funciona a internacionalização no VueJS
+      {{$t('home.description')}}
       <br>
-      Confira a documentação oficial <a href="https://kazupon.github.io/vue-i18n/" target="_blank" rel="noopener">vue-i18n</a>.
+      {{$t('home.sub-description.initial')}} <a href="https://kazupon.github.io/vue-i18n/" target="_blank" rel="noopener">{{$t('home.sub-description.link')}}</a>.
     </p>
+
+    <div class="locale-changer">
+      <select v-model="$i18n.locale">
+        <option v-for="(lang, i) in languages" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+      </select>
+    </div>
+
   </div>
 </template>
 
@@ -14,6 +21,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data () {
+    return {
+      languages: ['br', 'en']
+    }
   }
 }
 </script>

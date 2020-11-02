@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Coffops - VueJS i18n Internationalization",
+    "description": "Just a simple demonstration about how works internationalization on VueJS.",
+    "sub-description": {
+      "initial": "Check the oficial documentation",
+      "link": "vue-i18n"
+    }
+  }
+}

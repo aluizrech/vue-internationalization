@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Coffops Vue Internationalization i18n"/>
+    <HelloWorld :msg="$t('home.title')"/>
   </div>
 </template>
 
