@@ -1,4 +1,9 @@
 {
+  "menu": {
+    "home": "Home",
+    "example1": "Exemplo 1",
+    "example2": "Exemplo 2"
+  },
   "home": {
     "title": "Coffops - Internacionalização VueJS i18n",
     "description": "Apenas uma demonstração simples de como funciona a internacionalização no VueJS",
@@ -6,5 +11,13 @@
       "initial": "Confira a documentação oficial",
       "link": "vue-i18n"
     }
+  },
+  "example1": {
+    "title": "Exemplo 1",
+    "description": "Exemplo 1 usando router vue"
+  },
+  "example2": {
+    "title": "Exemplo 2",
+    "description": "Exemplo 2 usando router vue"
   }
 }
