@@ -12,6 +12,8 @@ Artigo completo: https://coffops.com/internacionalizacao-de-projeto-vuejs-com-i1
 
 Uma das principais características do vue é seu modo de single page. Para exemplificar esse modo, vamos adicionar ao nosso projeto o router vuejs. Mais conhecido como router vue.
 
+Artigo completo: https://coffops.com/adicionando-router-vuejs/
+
 ## Project setup
 ```
 npm install
