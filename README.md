@@ -8,6 +8,9 @@ Em vários estados do brasil temos um nome diferente para o pão francês. Sendo
 
 Artigo completo: https://coffops.com/internacionalizacao-de-projeto-vuejs-com-i18n/
 
+# Adicionando router VueJs
+
+Uma das principais características do vue é seu modo de single page. Para exemplificar esse modo, vamos adicionar ao nosso projeto o router vuejs. Mais conhecido como router vue.
 
 ## Project setup
 ```
